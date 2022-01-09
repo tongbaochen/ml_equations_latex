@@ -646,13 +646,13 @@ PMI(x;y) = \log{\frac{p(x,y)}{p(x)p(y)}}
 
 For example,  ![math](https://render.githubusercontent.com/render/math?math=p%28x%29)  and  ![math](https://render.githubusercontent.com/render/math?math=p%28y%29)  is the frequency of word  ![math](https://render.githubusercontent.com/render/math?math=x)  and  ![math](https://render.githubusercontent.com/render/math?math=y)  appearing in corpus and  ![math](https://render.githubusercontent.com/render/math?math=p%28x%2Cy%29)  is the frequency of the co-occurrence of the two.
 
-'''
+```
 \begin{aligned}
 \operatorname{span}\left(\hat{t}_{s}, \hat{t}_{e}\right) &=\underset{\hat{t}_{s}, \hat{t}_{e}}{\operatorname{argmax}} P_{\text {start }}\left(\hat{t}_{s}\right) P_{\text {end }}\left(\hat{t}_{e}\right) \\
 &=\underset{\hat{t}_{s}, \hat{t}_{e}}{\operatorname{argmax}} S_{\text {start }}\left(\hat{t}_{s}\right)+S_{\text {end }}\left(\hat{t}_{e}\right) \\
 \text { s.t. } \hat{t}_{s} & \leq \hat{t}_{e}
 \end{aligned}
-'''
+```
 
 ## Notes
 
